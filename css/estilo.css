@@ -141,3 +141,24 @@ main .products .precio {
   font-weight: 700;
   padding: 20px;
 }
+
+section .brands {
+  float: left;
+
+}
+
+section .brands img {
+  padding: 1px 3px ;
+  border: 2px solid #ebebeb;
+  margin-right: 46px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+section h2 {
+  display: none;
+}
+
+main .products .descuento {
+  position: relative;
+}
