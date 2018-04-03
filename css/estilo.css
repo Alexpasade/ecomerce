@@ -1,6 +1,13 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,700");
 
+
+
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body{
   font-family: 'Titillium Web', sans-serif;
   font-size: 100%;
@@ -41,6 +48,58 @@ h6{
   font-size: 105%;
 }
 
-main h1 .titulohome {
+main .titulohome{
   display: none;
+}
+
+.row{
+  max-width: 1004px;
+  margin: 0 auto;
+}
+
+/* INICIO HEADER */
+
+header{
+  height: 120px;
+  padding: 40px 0px 30px 0px;
+}
+
+header .logo img{
+  border-right: 1px solid #eee;
+
+}
+
+header nav ul li{
+  display: inline-block;
+}
+
+header nav ul li a{
+  display: block;
+  padding: 20px 20px 30px 20px;
+  text-align: center;
+  color: #646464;
+}
+header nav ul li a:hover{
+  border-bottom: 3px solid red;
+}
+header .carrito {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+header .logo, nav, .carrito {
+  float: left;
+}
+
+header .carrito {
+  float: right;
+}
+
+/* FIN HEADER */
+
+.hero {
+  height: 430px;
+  background-image: url("../images/chica.jpg");
+  background-size: cover;
 }
