@@ -151,7 +151,7 @@ main .products article {
   position: relative;
 }
 
-main .products h4 , p {
+main .products h4 , main .products p {
   text-align: center;
 }
 
@@ -199,8 +199,20 @@ main .brands .brand:last-child{
   margin-right: 2%;
 }
 
-}
-
-
 
 /* INICIO FOOTER */
+
+footer .footer_sup{
+  padding: 50px 0px;
+
+}
+
+footer .footer_inf{
+  border-top: 1px solid black;
+  padding: 20px 0px;
+}
+
+footer a {
+  color: #ebebeb;
+  font-weight: bold;
+}
