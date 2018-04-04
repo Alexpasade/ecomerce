@@ -71,7 +71,7 @@ header{
 }
 
 header .logo img{
-  border-right: 1px solid #eee;
+  border-right: 1px solid #000;
 
 }
 
@@ -81,9 +81,10 @@ header nav ul li{
 
 header nav ul li a{
   display: block;
-  padding: 0px 20px 30px 20px;
+  padding: 0px 30px 56px 30px;
   text-align: center;
   color: #646464;
+  margin-bottom: -50px;
 }
 header nav ul li a:hover{
   border-bottom: 3px solid red;
@@ -155,10 +156,4 @@ section .brands img {
   margin-top: 30px;
 }
 
-section h2 {
-  display: none;
-}
-
-main .products .descuento {
-  position: relative;
-}
+/* INICIO FOOTER */
