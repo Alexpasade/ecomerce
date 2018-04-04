@@ -21,6 +21,9 @@ h1, h2, h3, h5, h6{
   font-weight: 700;
   color: #515151;
 }
+strong {
+  font-weight: 700;
+}
 
 a{
   text-decoration: none;
@@ -213,6 +216,31 @@ footer .footer_inf{
 }
 
 footer a {
-  color: #ebebeb;
+  color: #646464;
   font-weight: bold;
+}
+
+footer a:hover {
+  color: red;
+}
+
+footer aside {
+  float: left;
+  padding: 10px 20px;
+
+}
+
+footer aside:nth-child(2){
+  width: 50%;
+}
+footer aside h3 {
+  padding-bottom: 20px;
+}
+
+footer aside ul li {
+  line-height: 150%
+}
+
+footer aside ul {
+  margin: 0px 0px 15px 0px;
 }
