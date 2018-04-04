@@ -90,10 +90,26 @@ header nav ul li a:hover{
   border-bottom: 3px solid red;
 }
 header .carrito {
-  background-color: red;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  border: 2px solid #646464;
+  width: 80px;
+  height: 60px;
+  border-radius: 40%;
+  padding: 15px 23px;
+  cursor: pointer;
+}
+header .carrito:hover{
+  background-color: #646464;
+  border: 0;
+}
+
+header .carrito:hover a{
+  color: white;
+}
+
+header .carrito a {
+  color: #646464;
+  font-size: 24px;
+
 }
 header .logo, nav, .carrito {
   float: left;
