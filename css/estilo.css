@@ -148,6 +148,7 @@ main .products article {
   width: 31%;
   float: left;
   margin-right: 20px;
+  position: relative;
 }
 
 main .products h4 , p {
@@ -157,6 +158,18 @@ main .products h4 , p {
 main .products .precio {
   font-weight: 700;
   padding: 20px;
+}
+
+main .products .descuento {
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  background-color: #fe0000;
+  opacity: 0,6;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+
 }
 
 section .brands {
