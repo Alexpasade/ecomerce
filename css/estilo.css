@@ -87,7 +87,7 @@ header nav ul li a{
   margin-bottom: -50px;
 }
 header nav ul li a:hover{
-  border-bottom: 3px solid red;
+  border-bottom: 4px solid red;
 }
 header .carrito {
   border: 2px solid #646464;
@@ -171,18 +171,36 @@ main .products .descuento {
   padding: 10px 20px;
 
 }
+/* INICIO BRANDS */
 
-section .brands {
+main .brands {
+  margin: 40px auto;
+
+}
+
+main .brands h2 {
+  display:none;
+
+}
+
+main .brands ul {
+  margin: 0px 1%;
+
+}
+main .brands .brand{
   float: left;
+  border: 4px solid #ebebeb;
+  margin: 0px 4.6% 0px 1%;
+  margin-left: 6px;
 
 }
 
-section .brands img {
-  padding: 1px 3px ;
-  border: 2px solid #ebebeb;
-  margin-right: 46px;
-  margin-bottom: 50px;
-  margin-top: 30px;
+main .brands .brand:last-child{
+  margin-right: 2%;
 }
+
+}
+
+
 
 /* INICIO FOOTER */
